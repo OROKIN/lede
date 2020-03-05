@@ -627,6 +627,7 @@ jobs:
           CONFIG_PACKAGE_urngd=y
           CONFIG_PACKAGE_htop=y
           CONFIG_PACKAGE_automount=y
+          CONFIG_PACKAGE_wireguard-tools=y
           CONFIG_PACKAGE_ipq-wifi-p2w_r619ac=y
           CONFIG_PACKAGE_ath10k-firmware-qca4019=y
           CONFIG_PACKAGE_wireless-regdb=y
@@ -721,6 +722,9 @@ jobs:
           CONFIG_PACKAGE_kmod-slhc=y
           CONFIG_PACKAGE_kmod-tcp-bbr=y
           CONFIG_PACKAGE_kmod-tun=y
+          CONFIG_PACKAGE_kmod-udptunnel4=y
+          CONFIG_PACKAGE_kmod-udptunnel6=y
+          CONFIG_PACKAGE_kmod-wireguard=y
           CONFIG_PACKAGE_kmod-gpio-button-hotplug=y
           CONFIG_PACKAGE_kmod-thermal=y
           CONFIG_PACKAGE_kmod-usb-core=y
@@ -876,11 +880,13 @@ jobs:
           CONFIG_PACKAGE_luci-app-vlmcsd=y
           CONFIG_PACKAGE_luci-app-vsftpd=y
           CONFIG_PACKAGE_luci-app-wifischedule=y
+          CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-zerotier=y
           CONFIG_PACKAGE_luci-theme-bootstrap=y
           CONFIG_PACKAGE_luci-proto-ppp=y
           CONFIG_PACKAGE_luci-proto-relay=y
+          CONFIG_PACKAGE_luci-proto-wireguard=y
           CONFIG_PACKAGE_luci-lib-ip=y
           CONFIG_PACKAGE_luci-lib-jsonc=y
           CONFIG_PACKAGE_luci-lib-nixio=y
@@ -904,6 +910,7 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-vsftpd-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-wifischedule-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
           CONFIG_POSTFIX_TLS=y
